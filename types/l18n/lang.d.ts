@@ -17,4 +17,9 @@ export interface Language {
         signGoogle_button: string
         signFacebook_button: string
     }
+
+    footer: {
+        tabChats: string
+        tabHistory: string
+    }
 }

@@ -18,6 +18,11 @@ const lang: Language = {
         signIn_button: 'Log in',
         signGoogle_button: 'Google',
         signFacebook_button: 'Facebook'
+    },
+
+    footer: {
+        tabChats: 'Chats',
+        tabHistory: 'Historias',
     }
 }
 

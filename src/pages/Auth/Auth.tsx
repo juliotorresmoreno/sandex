@@ -3,12 +3,12 @@ import { Route } from 'react-router-native';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
 import { Container } from 'native-base';
-import NavBar from './NavBar';
+import Header from '../../components/Header';
 
 const Auth = () => {
     return (
         <Fragment>
-            <NavBar />
+            <Header />
             <Container>
                 <Route path='/sign-up' component={SignUp} />
                 <Route path='/' exact component={SignIn} />

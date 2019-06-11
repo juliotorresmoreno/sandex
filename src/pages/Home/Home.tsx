@@ -1,21 +1,12 @@
 
 
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { Header, Body, Footer } from 'native-base';
+import { Redirect } from 'react-router';
 
-const styles = StyleSheet.create({
-    text: {
+interface IHomeProps {
 
-    }
-});
-
-const Home = () => {
-    return (
-        <Text style={styles.text}>
-            Home
-        </Text>
-    );
 }
+
+const Home = (props: IHomeProps): JSX.Element => <Redirect to='/chats' />;
 
 export default Home;
