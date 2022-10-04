@@ -19,7 +19,7 @@
     "@types/react-redux": "^7.0.9",
     "@types/react-router": "^5.0.1",
     "@types/react-router-native": "^4.2.4",
-    "expo": "^33.0.0",
+    "expo": "^46.0.14",
     "expo-font": "~5.0.1",
     "native-base": "^2.12.1",
     "react": "^16.8.3",
